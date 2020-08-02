@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filter Component Filter should render correctly in "debug" mode 1`] = `ShallowWrapper {}`;
+
+exports[`Header Component should render correctly in "debug" mode 1`] = `ShallowWrapper {}`;
