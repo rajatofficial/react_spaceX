@@ -19,7 +19,7 @@ class Home extends React.Component {
             data: []
         }
     }
-    
+
     loaderFlag = true;
     buttonValue = "";
     launchButtonValue = "";

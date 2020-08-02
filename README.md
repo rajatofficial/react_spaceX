@@ -4,8 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
-
+### `npm run dev`
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
@@ -66,3 +65,34 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+### Stack Details
+
+React JS for the front end
+Axios is used for fetching data
+Jest and Enzyme for unit testing
+Bootstrap and Material UI is used for components
+React Responsive
+
+
+### Approach
+
+For each functionality separate component is built.
+Components are used for reusability of code.
+All Components are rendered in Home Component which is stateful component
+Data is passed as props from home to all other components
+Header, Home and Footer Components are part of App Component( Root Component)
+State is Managed in single component for better and consistent flow of data.
+Web site is made responsive using bootstrap and Media Queries.
+Web Hooks for functional components arre used.
+Loader is integrated for better user experience for every API hit.
+Basic component redring test cases are written with Jest and Enzyme.
+Website is deployed on Heroku.
+Redux or any other state manager is not used as website is not complex i.e. only single page.
+
+### Kindly Check
+
+For checking API URL kindly visit network tab in developer tools.
+For Better UI experience visit websie in Desktop Mode.
+
